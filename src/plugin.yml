@@ -1,0 +1,9 @@
+name: PT4
+author: CircuitSword
+version: 1.0
+main: Mtut1
+
+commands:
+  mob:
+    usage: /<command>
+    description: Tutorial Command
