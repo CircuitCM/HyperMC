@@ -1,7 +1,8 @@
-name: PT4
+name: HyperCore
 author: CircuitSword
 version: 1.0
 main: Mtut1
+depend: [Vault, PlaceholderAPI]
 
 commands:
   mob:

@@ -1,12 +1,14 @@
 package HyperWorld.Guilds;
 
+import HyperWorld.Mtut1;
 import org.bukkit.entity.Player;
+import org.bukkit.event.Listener;
 
 import java.util.HashMap;
 import java.util.Set;
 import java.util.UUID;
 
-public class GuildCore {
+public class GuildCore extends Mtut1 implements Listener {
 
     private String name;
     private HashMap<UUID, String> members = new HashMap<>();
@@ -29,7 +31,7 @@ public class GuildCore {
     private static void put(UUID uniqueId) {
     }
 
-    public String getName(String name) {
+    public void getName(String name) {
         GuildCore.get(getOwner());
     }
 
