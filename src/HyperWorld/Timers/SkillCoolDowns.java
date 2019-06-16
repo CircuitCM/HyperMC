@@ -8,7 +8,7 @@ import org.bukkit.entity.Player;
 
 import java.util.concurrent.TimeUnit;
 
-//convert to event listeners
+//convert to event listeners for skills
 public class SkillCoolDowns implements CommandExecutor {
 
     private final CooldownManager cooldownManager = new CooldownManager();
