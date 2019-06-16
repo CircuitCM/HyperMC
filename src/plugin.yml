@@ -2,7 +2,7 @@ name: HyperCore
 author: CircuitSword
 version: 1.0
 main: Mtut1
-depend: [Vault, PlaceholderAPI]
+depend: [Vault, PlaceholderAPI, WorldGaurd, WorldEdit]
 
 commands:
   mob:

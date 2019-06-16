@@ -266,12 +266,12 @@ public class CustomItems implements Listener {
         ItemMeta meta6 = item6.getItemMeta();
 
         //set display name of item meta
-        meta.setDisplayName(ChatColor.AQUA + "Super Tier Boots");
-        meta2.setDisplayName(ChatColor.AQUA + "Super Tier Leggings");
-        meta3.setDisplayName(ChatColor.AQUA + "Super Tier Chestplate");
-        meta4.setDisplayName(ChatColor.AQUA + "Super Tier Helmet");
-        meta5.setDisplayName(ChatColor.AQUA + "Super Tier Sword");
-        meta6.setDisplayName(ChatColor.GOLD + "Hyper Tier Sword");
+        meta.setDisplayName(ChatColor.AQUA + "Master Boots");
+        meta2.setDisplayName(ChatColor.AQUA + "Master Leggings");
+        meta3.setDisplayName(ChatColor.AQUA + "Master Chestplate");
+        meta4.setDisplayName(ChatColor.AQUA + "Master Helmet");
+        meta5.setDisplayName(ChatColor.AQUA + "Master Sword");
+        meta6.setDisplayName(ChatColor.GOLD + "Hyper Sword");
 
         //lore is set in meta
         //define new shaped recipe

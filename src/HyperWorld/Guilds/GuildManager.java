@@ -68,7 +68,7 @@ public class GuildManager {
         return players.containsKey(player.getUniqueId());
     }
 
-    public String getGuild(Player player) {
+    public String getGuild(UUID player) {
         if (players.containsKey(player.getUniqueId()))
             return players.get(player.getUniqueId());
         return null;
